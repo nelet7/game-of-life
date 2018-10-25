@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>gof</title>
+
+	<script src="../libraries/p5.js"></script>
+	<script src="../libraries/p5.dom.js"></script>
+	<script src="../libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+	<link href="css/gameoflife.css" rel="stylesheet" />
+
+	<style>
+		body {
+			margin: 0;
+			margin-left:45px;
+			padding:0;
+			overflow: hidden;
+			justify-content: center;
+			align-items: center;
+		}
+		canvas {
+			margin:auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="container-general">
+		<h1>Game of life</h1>
+		<div id="div-canvas">
+			<!-- Aquí va el canvas del juego -->
+		</div>
+		<div id="controles">
+			<p><strong>Controles:</strong></p>
+			<button type="button" name="btnStart" id="btnStartId" onclick="init()">Empezar</button>
+		</div>
+	</div>
+</body>
+</html>

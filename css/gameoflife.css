@@ -1,0 +1,42 @@
+#container-general{
+  margin-right: 20px !important;
+}
+
+h1{
+  font-family: 'Charmonman', sans-serif;
+  text-align: center;
+  background: yellow;
+  margin: 0px;
+  border: 1px solid black;
+}
+
+#div-canvas{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+p{
+  display: inline-block;
+  font-family: 'Charmonman', sans-serif;
+  font-size: 25px;
+}
+
+button{
+  margin-left: 15px;
+  display: inline-block;
+  background-color: #F4A742;
+  border: 1px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+button:active {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #FF6600
+;
+}
