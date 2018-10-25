@@ -4,6 +4,7 @@ var columnas;
 var filas;
 var tablero;
 var nuevoTablero;
+var gener = 0;
 
 function setup() {
 
@@ -28,13 +29,12 @@ function setup() {
     nuevoTablero[i] = new Array(filas);
   }
 
-  init();
+	init();
 }
 
 // Dibujar el tablero mediante los parámetros de configuración
 function draw() {
   background(255);
-  generate();
   for ( var i = 0; i < columnas;i++) {
     for ( var j = 0; j < filas;j++) {
       if ((tablero[i][j] == 1)) fill('rgb(145,196,242)');
@@ -70,6 +70,10 @@ function clean(){
 
     }
   }
+}
+
+function rellenarRandom(){
+	location.reload();
 }
 
 // Función para generar el nuevo estado de las células del tablero
@@ -110,4 +114,11 @@ function generate() {
   var temp = tablero;
   tablero = nuevoTablero;
   nuevoTablero = temp;
+	gener++;
+	document.getElementById('titulo').innerHTML = "Game of life - Generación " + gener;
+	if(gener == 6){
+    document.getElementById('titulo').innerHTML = "Game of life - Generación 6 - FIN";
+		document.getElementById('btnStartId').disabled = "true";
+		document.getElementById('btnStartId').style.backgroundColor = "rgba(140, 160, 215, 0.3)";
+	}
 }

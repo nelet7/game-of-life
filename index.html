@@ -30,14 +30,15 @@
 </head>
 <body>
 	<div id="container-general">
-		<h1>Game of life</h1>
+		<h1 id="titulo">Game of life - Generación 0</h1>
 		<div id="div-canvas">
 			<!-- Aquí va el canvas del juego -->
 		</div>
 		<div id="controles">
 			<p><strong>Controles:</strong></p>
-			<button type="button" name="btnStart" id="btnStartId" onclick="init()">Empezar</button>
-			<button type="button" name="btnStop" id="btnStopId" onclick="clean()">Limpiar</button>
+			<button type="button" name="btnFill" id="btnFillRandomId" onclick="rellenarRandom()">Recargar tablero</button>
+			<button type="button" name="btnStart" id="btnStartId" onclick="generate()">Siguiente generación</button>
+			<button type="button" name="btnClean" id="btnCleanId" onclick="clean()">Limpiar</button>
 		</div>
 	</div>
 </body>
