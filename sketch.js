@@ -66,7 +66,6 @@ function clean(){
 	for (var i = 0; i < columnas; i++) {
     for (var j = 0; j < filas; j++) {
 
-      // Controlando ejes
       tablero[i][j] = 0;
 
     }
