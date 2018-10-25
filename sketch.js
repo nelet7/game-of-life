@@ -62,6 +62,17 @@ function init() {
   }
 }
 
+function clean(){
+	for (var i = 0; i < columnas; i++) {
+    for (var j = 0; j < filas; j++) {
+
+      // Controlando ejes
+      tablero[i][j] = 0;
+
+    }
+  }
+}
+
 // Función para generar el nuevo estado de las células del tablero
 function generate() {
 
