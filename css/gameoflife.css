@@ -5,7 +5,7 @@
 h1{
   font-family: 'Charmonman', sans-serif;
   text-align: center;
-  background: yellow;
+  background: #A14DA0;
   margin: 0px;
   border: 2px solid black;
 }
@@ -15,7 +15,7 @@ h1{
   padding-bottom: 20px;
   text-align: center;
   border: 2px solid black;
-  background-color: #F7CE5D;
+  background-color: #9D79BC;
 }
 
 p{
@@ -27,7 +27,7 @@ p{
 button{
   margin-left: 15px;
   display: inline-block;
-  background-color: #F4A742;
+  background-color: #8CA0D7;
   border: 1px solid black;
   color: white;
   padding: 15px 32px;

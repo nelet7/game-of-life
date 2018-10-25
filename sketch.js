@@ -37,7 +37,7 @@ function draw() {
   generate();
   for ( var i = 0; i < columnas;i++) {
     for ( var j = 0; j < filas;j++) {
-      if ((tablero[i][j] == 1)) fill(0);
+      if ((tablero[i][j] == 1)) fill('rgb(145,196,242)');
       else fill(255);
       stroke(0);
       rect(i*anchuraCelula, j*anchuraCelula, anchuraCelula-1, anchuraCelula-1);
