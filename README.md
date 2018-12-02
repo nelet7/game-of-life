@@ -4,10 +4,6 @@
 
 :sparkles:
 
-## Prueba para Onestic
-
-Minijuego realizado como prueba para Onestic
-
 ## ¿Que necesito para probar el juego?
 Se necesitará únicamente instalar la librería p5-manager (apartado instalación) y un navegador donde observar los resultados.
 
